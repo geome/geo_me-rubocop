@@ -1,0 +1,57 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - tmp/**/*
+    - vendor/**/*
+    - db/**/*
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 120
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: '{}'
+    '%i': '{}'
+    '%w': '{}'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/EmptyLines:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Performance/ParallelAssignment:
+  Enabled: false
