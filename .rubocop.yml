@@ -5,40 +5,10 @@ AllCops:
     - vendor/**/*
     - db/**/*
 
-Metrics/LineLength:
+Rails:
   Enabled: true
-  Max: 120
-
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
 
 Documentation:
-  Enabled: false
-
-Metrics/MethodLength:
-  Max: 15
-
-Metrics/BlockLength:
-  Exclude:
-    - spec/**/*.rb
-
-Style/SingleLineBlockParams:
-  Enabled: false
-
-Style/BlockDelimiters:
-  EnforcedStyle: semantic
-
-Style/SignalException:
-  EnforcedStyle: semantic
-
-Style/PercentLiteralDelimiters:
-  PreferredDelimiters:
-    default: '{}'
-    '%i': '{}'
-    '%w': '{}'
-
-Style/FrozenStringLiteralComment:
   Enabled: false
 
 Layout/EmptyLines:
@@ -53,5 +23,50 @@ Layout/EmptyLinesAroundModuleBody:
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
-Performance/ParallelAssignment:
+Layout/IndentHash:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+
+Rails/ApplicationRecord:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/SignalException:
+  EnforcedStyle: semantic
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: '{}'
+    '%i': '{}'
+    '%w': '{}'
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
   Enabled: false
