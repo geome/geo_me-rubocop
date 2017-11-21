@@ -53,5 +53,8 @@ Layout/EmptyLinesAroundModuleBody:
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
-Performance/ParallelAssignment:
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/MutableConstant:
   Enabled: false
