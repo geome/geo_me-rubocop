@@ -43,6 +43,9 @@ Metrics/BlockLength:
 Rails/ApplicationRecord:
   Enabled: false
 
+Style/AndOr:
+  EnforcedStyle: conditionals
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
