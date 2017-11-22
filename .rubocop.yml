@@ -43,6 +43,10 @@ Metrics/BlockLength:
 Rails/ApplicationRecord:
   Enabled: false
 
+Style/BlockDelimiters:
+  Exclude:
+    - spec/**/*/.rb
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
