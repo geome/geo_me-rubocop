@@ -69,6 +69,9 @@ Style/PercentLiteralDelimiters:
     '%i': '{}'
     '%w': '{}'
 
+Style/WordArray:
+  Enabled: false
+  
 Style/ParallelAssignment:
   Enabled: false
 
