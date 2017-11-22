@@ -29,6 +29,12 @@ Layout/IndentHash:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
+Lint/UnusedMethodArgument:
+  Enabled: false
+  
+Lint/UnusedBlockArgument:
+  Enabled: false
+
 Metrics/LineLength:
   Enabled: true
   Max: 120
@@ -51,6 +57,9 @@ Style/AndOr:
   EnforcedStyle: conditionals
 
 Style/ClassAndModuleChildren:
+  Enabled: false
+  
+Style/IfUnlessModifier:
   Enabled: false
 
 Style/StringLiterals:
