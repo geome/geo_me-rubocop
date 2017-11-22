@@ -70,8 +70,8 @@ Style/PercentLiteralDelimiters:
     '%w': '{}'
 
 Style/WordArray:
-  EnforcedStyle: brackets
-
+  Enabled: false
+  
 Style/ParallelAssignment:
   Enabled: false
 
