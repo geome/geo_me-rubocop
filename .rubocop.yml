@@ -26,6 +26,9 @@ Layout/EmptyLinesAroundClassBody:
 Layout/IndentHash:
   Enabled: false
 
+Layout/ExtraSpacing:
+  Enabled: true
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
@@ -71,7 +74,7 @@ Style/PercentLiteralDelimiters:
 
 Style/WordArray:
   Enabled: false
-  
+
 Style/ParallelAssignment:
   Enabled: false
 
