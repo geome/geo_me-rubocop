@@ -45,7 +45,7 @@ Rails/ApplicationRecord:
 
 Style/BlockDelimiters:
   Exclude:
-    - spec/**/*/.rb
+    - spec/**/*.rb
 
 Style/ClassAndModuleChildren:
   Enabled: false
