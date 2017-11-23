@@ -11,9 +11,6 @@ Rails:
 Documentation:
   Enabled: false
 
-Layout/EmptyLines:
-  Enabled: false
-
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
@@ -24,14 +21,15 @@ Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
 Layout/IndentHash:
-  Enabled: false
-
+  Enabled: true
+  EnforcedLastArgumentHashStyle: ignore_implicit
+  
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
 Lint/UnusedMethodArgument:
   Enabled: false
-  
+
 Lint/UnusedBlockArgument:
   Enabled: false
 
@@ -58,7 +56,7 @@ Style/AndOr:
 
 Style/ClassAndModuleChildren:
   Enabled: false
-  
+
 Style/IfUnlessModifier:
   Enabled: false
 
@@ -80,7 +78,7 @@ Style/PercentLiteralDelimiters:
 
 Style/WordArray:
   Enabled: false
-  
+
 Style/ParallelAssignment:
   Enabled: false
 
