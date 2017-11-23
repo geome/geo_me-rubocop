@@ -11,9 +11,6 @@ Rails:
 Documentation:
   Enabled: false
 
-Layout/EmptyLines:
-  Enabled: true
-
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
@@ -22,12 +19,6 @@ Layout/EmptyLinesAroundModuleBody:
 
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
-
-Layout/ExtraSpacing:
-  Enabled: true
-
-Layout/TrailingBlankLines:
-  Enabled: true
 
 Layout/IndentHash:
   Enabled: true
