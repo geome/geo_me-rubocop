@@ -8,6 +8,12 @@ AllCops:
 Rails:
   Enabled: true
 
+Rails/Delegate:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
+
 Documentation:
   Enabled: false
 
@@ -23,7 +29,7 @@ Layout/EmptyLinesAroundClassBody:
 Layout/IndentHash:
   Enabled: true
   EnforcedLastArgumentHashStyle: ignore_implicit
-  
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
