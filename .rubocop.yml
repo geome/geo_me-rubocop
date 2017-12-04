@@ -4,6 +4,12 @@ AllCops:
     - tmp/**/*
     - vendor/**/*
     - db/**/*
+    
+Bundler/OrderedGems:
+  Enabled: false
+  
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
 
 Rails:
   Enabled: true
