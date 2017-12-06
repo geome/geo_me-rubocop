@@ -65,6 +65,21 @@ Metrics/BlockLength:
   Exclude:
     - spec/**/*.rb
 
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Exclude: 
+    - Vagrantfile
+
+Metrics/CyclomaticComplexity:
+  Exclude: 
+    - Vagrantfile
+    
+Metrics/PerceivedComplexity:
+  Exclude: 
+    - Vagrantfile
+
 Rails/ApplicationRecord:
   Enabled: false
 
