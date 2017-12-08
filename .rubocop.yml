@@ -66,8 +66,9 @@ Metrics/BlockLength:
     - spec/**/*.rb
 
 Metrics/AbcSize:
-  Enabled: false
-
+  Exclude: 
+    - Vagrantfile
+    
 Metrics/MethodLength:
   Exclude: 
     - Vagrantfile
