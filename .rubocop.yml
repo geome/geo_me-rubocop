@@ -66,6 +66,7 @@ Metrics/MethodLength:
 Metrics/BlockLength:
   Exclude:
     - spec/**/*.rb
+    - app/admin/**/*.rb
 
 Metrics/AbcSize:
   Exclude: 
