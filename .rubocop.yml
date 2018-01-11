@@ -6,6 +6,7 @@ AllCops:
     - tmp/**/*
     - vendor/**/*
     - db/**/*
+    - Guardfile
     
 Bundler/OrderedGems:
   Enabled: false
