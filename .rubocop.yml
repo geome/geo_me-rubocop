@@ -66,7 +66,7 @@ Metrics/MethodLength:
 
 Metrics/BlockLength:
   Exclude:
-    - lib/tasks/**/*.rb
+    - lib/tasks/**/*.rake
     - spec/**/*.rb
     - app/admin/**/*.rb
 
