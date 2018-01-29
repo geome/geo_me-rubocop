@@ -66,6 +66,7 @@ Metrics/MethodLength:
 
 Metrics/BlockLength:
   Exclude:
+    - config/routes.rb
     - Rakefile
     - lib/tasks/**/*.rake
     - spec/**/*.rb
