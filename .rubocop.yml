@@ -104,6 +104,10 @@ Style/ClassAndModuleChildren:
 Style/IfUnlessModifier:
   Enabled: false
 
+Style/GlobalVars:
+  Exclude:
+    - Vagrantfile
+
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
