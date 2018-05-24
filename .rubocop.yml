@@ -92,15 +92,9 @@ Metrics/PerceivedComplexity:
 Rails/ApplicationRecord:
   Enabled: false
 
-Style/BlockDelimiters:
-  EnforcedStyle: semantic
-  FunctionalMethods:
-    - before
-    - let
-    - let!
-    - subject
-    - watch
-    - expect
+Style/BlockDelimiters:    
+  Exclude:
+    - spec/**/*.rb
 
 Style/AndOr:
   EnforcedStyle: conditionals
