@@ -93,8 +93,14 @@ Rails/ApplicationRecord:
   Enabled: false
 
 Style/BlockDelimiters:
-  Exclude:
-    - spec/**/*.rb
+  EnforcedStyle: semantic
+  FunctionalMethods:
+    - before
+    - let
+    - let!
+    - subject
+    - watch
+    - expect
 
 Style/AndOr:
   EnforcedStyle: conditionals
