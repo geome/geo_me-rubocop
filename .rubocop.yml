@@ -45,10 +45,6 @@ Layout/EmptyLinesAroundModuleBody:
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
-Layout/IndentHash:
-  Enabled: true
-  EnforcedLastArgumentHashStyle: ignore_implicit
-
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
