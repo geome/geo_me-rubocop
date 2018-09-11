@@ -94,6 +94,7 @@ Rails/ApplicationRecord:
 Style/BlockDelimiters:    
   Exclude:
     - spec/**/*.rb
+    - **/*_spec.rb
 
 Style/AndOr:
   EnforcedStyle: conditionals
