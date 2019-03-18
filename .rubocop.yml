@@ -8,7 +8,7 @@ AllCops:
     - db/**/*
     - Guardfile
     - lib/tasks/cucumber.rake
-    
+
 Bundler/OrderedGems:
   Enabled: false
 
@@ -44,7 +44,7 @@ Layout/EmptyLinesAroundModuleBody:
 
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
-  
+
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
@@ -63,6 +63,8 @@ Metrics/LineLength:
 
 Metrics/MethodLength:
   Max: 15
+  Exclude:
+    - Vagrantfile
 
 Metrics/BlockLength:
   Exclude:
@@ -73,25 +75,21 @@ Metrics/BlockLength:
     - app/admin/**/*.rb
 
 Metrics/AbcSize:
-  Exclude: 
-    - Vagrantfile
-    
-Metrics/MethodLength:
-  Exclude: 
+  Exclude:
     - Vagrantfile
 
 Metrics/CyclomaticComplexity:
-  Exclude: 
+  Exclude:
     - Vagrantfile
-    
+
 Metrics/PerceivedComplexity:
-  Exclude: 
+  Exclude:
     - Vagrantfile
 
 Rails/ApplicationRecord:
   Enabled: false
 
-Style/BlockDelimiters:    
+Style/BlockDelimiters:
   Exclude:
     - spec/**/*.rb
     - /**/*_spec.rb
