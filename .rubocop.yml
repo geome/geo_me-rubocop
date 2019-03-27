@@ -139,3 +139,19 @@ Style/MutableConstant:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+RSpec/LetSetup:
+  Enabled: false
+
+RSpec/LeadingSubject:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Max: 2
+  
+RSpec/NestedGroups:
+  Max: 4
+
