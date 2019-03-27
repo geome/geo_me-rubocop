@@ -151,3 +151,7 @@ RSpec/NamedSubject:
 
 RSpec/MultipleExpectations:
   Max: 2
+  
+RSpec/NestedGroups:
+  Max: 4
+
