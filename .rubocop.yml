@@ -1,4 +1,5 @@
 require: rubocop-rspec
+require: rubocop-rails
 
 AllCops:
   TargetRubyVersion: 2.5
