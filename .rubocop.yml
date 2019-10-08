@@ -149,6 +149,9 @@ RSpec/LetSetup:
 RSpec/LeadingSubject:
   Enabled: false
 
+RSpec/ImplicitSubject:
+  Enabled: false
+
 RSpec/NamedSubject:
   Enabled: false
 
