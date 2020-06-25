@@ -13,6 +13,7 @@ AllCops:
     - db/**/*
     - Guardfile
     - lib/tasks/cucumber.rake
+    - project_secrets.rb
 
 Bundler/OrderedGems:
   Enabled: false
