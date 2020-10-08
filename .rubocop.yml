@@ -146,6 +146,9 @@ Style/FrozenStringLiteralComment:
 
 RSpec/LetSetup:
   Enabled: false
+  
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
 
 RSpec/LeadingSubject:
   Enabled: false
