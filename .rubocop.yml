@@ -36,6 +36,9 @@ Rails/Blank:
 Rails/Delegate:
   Enabled: false
 
+Rails/InverseOf:
+  Enabled: false
+
 Rails/FilePath:
   Enabled: false
 
