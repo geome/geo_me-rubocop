@@ -1,11 +1,11 @@
-require: 
+require:
   - rubocop-rspec
   - rubocop-rails
   - rubocop-performance
 
 AllCops:
-  TargetRubyVersion: 2.5
-  TargetRailsVersion: 5.2
+  TargetRubyVersion: 2.6
+  TargetRailsVersion: 6.1
 
   Exclude:
     - tmp/**/*
@@ -42,9 +42,6 @@ Rails/InverseOf:
 Rails/FilePath:
   Enabled: false
 
-Documentation:
-  Enabled: false
-
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
@@ -57,6 +54,10 @@ Layout/EmptyLinesAroundClassBody:
 Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
+Layout/LineLength:
+  Enabled: true
+  Max: 120
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
@@ -66,10 +67,6 @@ Lint/UnusedMethodArgument:
 Lint/UnusedBlockArgument:
   Enabled: false
 
-Metrics/LineLength:
-  Enabled: true
-  Max: 120
-
 Metrics/MethodLength:
   Max: 15
   Exclude:
@@ -77,7 +74,8 @@ Metrics/MethodLength:
 
 Metrics/BlockLength:
   Exclude:
-    - config/routes.rb
+    - config/**/*.rb
+    - Vagrantfile
     - Rakefile
     - lib/tasks/**/*.rake
     - spec/**/*.rb
@@ -106,6 +104,9 @@ Style/BlockDelimiters:
 Style/AndOr:
   EnforcedStyle: conditionals
 
+Style/Documentation:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
@@ -115,6 +116,9 @@ Style/IfUnlessModifier:
 Style/GlobalVars:
   Exclude:
     - Vagrantfile
+
+Style/NumericLiterals:
+  Enabled: false
 
 Style/StringLiterals:
   Enabled: true
@@ -149,7 +153,7 @@ Style/FrozenStringLiteralComment:
 
 RSpec/LetSetup:
   Enabled: false
-  
+
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
 
@@ -164,10 +168,12 @@ RSpec/NamedSubject:
 
 RSpec/MultipleExpectations:
   Max: 4
-  
+
 RSpec/NestedGroups:
   Max: 4
-  
+
 RSpec/ExampleLength:
   Max: 8
 
+RSpec/FilePath:
+  Enabled: false
