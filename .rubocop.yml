@@ -177,3 +177,9 @@ RSpec/ExampleLength:
 
 RSpec/FilePath:
   Enabled: false
+
+RSpec/SpecFilePathFormat:
+  Enabled: false
+
+RSpec/SpecFilePathSuffix:
+  Enabled: true
