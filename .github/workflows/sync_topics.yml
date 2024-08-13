@@ -1,0 +1,19 @@
+name: Add project type as Github topic
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "project.json"
+      - ".github/workflows/sync_topics.yml"
+  pull_request:
+    paths:
+      - "project.json"
+      - ".github/workflows/sync_topics.yml"
+  workflow_dispatch:
+
+jobs:
+
+  sync-topics:
+    uses: geome/workflows/.github/workflows/sync_github_topics.yml@master
+    secrets:
+      inherit
