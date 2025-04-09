@@ -172,9 +172,6 @@ RSpec/NestedGroups:
 RSpec/ExampleLength:
   Max: 8
 
-RSpec/FilePath:
-  Enabled: false
-
 RSpec/SpecFilePathFormat:
   Enabled: false
 
