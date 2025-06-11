@@ -13,7 +13,6 @@ AllCops:
     - db/**/*
     - Guardfile
     - lib/tasks/cucumber.rake
-    - project_secrets.rb
     - node_modules/**/*
 
 Bundler/OrderedGems:
@@ -68,11 +67,6 @@ Lint/UnusedMethodArgument:
 Lint/UnusedBlockArgument:
   Enabled: false
 
-Metrics/MethodLength:
-  Max: 15
-  Exclude:
-    - Vagrantfile
-
 Metrics/BlockLength:
   Exclude:
     - config/**/*.rb
@@ -82,17 +76,8 @@ Metrics/BlockLength:
     - spec/**/*.rb
     - app/admin/**/*.rb
 
-Metrics/AbcSize:
-  Exclude:
-    - Vagrantfile
-
-Metrics/CyclomaticComplexity:
-  Exclude:
-    - Vagrantfile
-
-Metrics/PerceivedComplexity:
-  Exclude:
-    - Vagrantfile
+Naming/VariableNumber:
+  Enabled: false
 
 Rails/ApplicationRecord:
   Enabled: false
