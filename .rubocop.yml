@@ -78,6 +78,9 @@ Metrics/BlockLength:
 
 Naming/VariableNumber:
   Enabled: false
+  
+Naming/MethodParameterName:
+  MinNameLength: 1
 
 Rails/ApplicationRecord:
   Enabled: false
