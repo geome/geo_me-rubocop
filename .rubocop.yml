@@ -90,6 +90,9 @@ Style/BlockDelimiters:
     - spec/**/*.rb
     - /**/*_spec.rb
 
+Style/HashSyntax:
+  EnforcedShorthandSyntax: always
+
 Style/AndOr:
   EnforcedStyle: conditionals
 
