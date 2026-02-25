@@ -76,9 +76,14 @@ Metrics/BlockLength:
     - spec/**/*.rb
     - app/admin/**/*.rb
 
+Metrics/MethodLength:
+  CountAsOne:
+    - hash
+    - heredoc
+
 Naming/VariableNumber:
   Enabled: false
-  
+
 Naming/MethodParameterName:
   MinNameLength: 1
 
