@@ -1,0 +1,6 @@
+Layout/MultilineMethodChain:
+  Description: >-
+    Enforce multiline formatting for method chains with 3 or more calls.
+  Enabled: true
+  MinChainLength: 3
+  VersionAdded: "0.1.0"

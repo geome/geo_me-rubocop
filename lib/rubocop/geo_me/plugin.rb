@@ -1,0 +1,28 @@
+require "lint_roller"
+
+module RuboCop
+  module GeoMe
+    class Plugin < LintRoller::Plugin
+      def about
+        LintRoller::About.new(
+          name: "geo_me-rubocop",
+          version: VERSION,
+          homepage: "https://github.com/geome/geo_me-rubocop",
+          description: "Custom RuboCop cops for Geo.me"
+        )
+      end
+
+      def supported?(context)
+        context.engine == :rubocop
+      end
+
+      def rules(_context)
+        LintRoller::Rules.new(
+          type: :path,
+          config_format: :rubocop,
+          value: Pathname.new(__dir__).join("../../../config/default.yml")
+        )
+      end
+    end
+  end
+end
