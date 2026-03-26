@@ -80,6 +80,7 @@ Metrics/MethodLength:
   CountAsOne:
     - hash
     - heredoc
+    - array
 
 Naming/VariableNumber:
   Enabled: false
@@ -147,6 +148,9 @@ Style/FrozenStringLiteralComment:
 RSpec/LetSetup:
   Enabled: false
 
+RSpec/IndexedLet:
+  Enabled: false
+
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
 
@@ -167,6 +171,10 @@ RSpec/NestedGroups:
 
 RSpec/ExampleLength:
   Max: 8
+  CountAsOne:
+    - hash
+    - array
+    - heredoc
 
 RSpec/SpecFilePathFormat:
   Enabled: false
