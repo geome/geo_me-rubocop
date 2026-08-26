@@ -58,6 +58,9 @@ Layout/LineLength:
   Enabled: true
   Max: 120
 
+Layout/FirstArgumentIndentation:
+  EnforcedStyle: consistent_relative_to_receiver
+
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented_relative_to_receiver
 
